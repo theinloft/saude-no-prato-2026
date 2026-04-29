@@ -1,0 +1,44 @@
+/* configurações */
+
+/* seleciona todos os elementos do html zerando os espaçamentos para ter maior domínio sobre os elementos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* definir as propriedades padrão da página */
+html {
+    color: #555;
+    font-family: 'lato', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+
+    /* Otimiza a renderização da fonte para leitura, tendo melhor qualidade */
+    text-rendering: optimizeLegibility;
+}
+
+/* hero header */
+
+header{
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0, 0.7)),
+    url(img/img-hero-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.logo{
+    height: 100px;
+}
+h1{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
